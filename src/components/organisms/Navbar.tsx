@@ -40,7 +40,7 @@ export default function Navbar() {
                     <Link to="/contact" className="hover:text-primary">{t("navbar.contact")}</Link>
                     <DropdownMenu>
                         <DropdownMenuTrigger asChild>
-                            <button className="flex items-center gap-2 p-2 hover:text-primary">
+                            <button className="flex items-center gap-2 p-2 hover:text-primary  hover:cursor-pointer">
                                 <Globe className="h-5 w-5" />
                             </button>
                         </DropdownMenuTrigger>
@@ -49,7 +49,7 @@ export default function Navbar() {
                             <DropdownMenuItem onClick={() => changeLanguage("en")}>🇬🇧 English</DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
-                    <button className="flex items-center gap-2 p-2 hover:text-primary" onClick={changeTheme}>
+                    <button className="flex items-center gap-2 p-2 hover:text-primary  hover:cursor-pointer" onClick={changeTheme}>
                         {theme === "dark" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
                     </button>
                 </div>
@@ -71,7 +71,7 @@ export default function Navbar() {
 
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
-                                <button className="flex items-center gap-2 p-2 hover:text-primary">
+                                <button className="flex items-center gap-2 p-2 hover:text-primary hover:cursor-pointer">
                                     <Globe className="h-5 w-5" />
                                 </button>
                             </DropdownMenuTrigger>
