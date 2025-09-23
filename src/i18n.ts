@@ -15,6 +15,12 @@ i18n.use(initReactI18next).init({
                     subtitle: "Soluciones limpias, ágiles y escalables para tu negocio.",
                     button: "Comenzar",
                 },
+                footer: {
+                    rights: "Todos los derechos reservados.",
+                    about: "Acerca de",
+                    services: "Servicios",
+                    contact: "Contacto",
+                },
             },
         },
         en: {
@@ -29,8 +35,15 @@ i18n.use(initReactI18next).init({
                     subtitle: "Clean, agile, and scalable solutions for your business.",
                     button: "Get Started",
                 },
+                footer: {
+                    rights: "All rights reserved.",
+                    about: "About",
+                    services: "Services",
+                    contact: "Contact",
+                },
             },
-        },
+        }
+
     },
 
     lng: "es",
