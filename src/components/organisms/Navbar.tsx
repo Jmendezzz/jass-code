@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Menu, Globe } from "lucide-react";
+import { Menu, Globe, Sun, Moon } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import {
     DropdownMenu,
@@ -9,9 +9,19 @@ import {
 } from "@/components/ui/dropdown-menu";
 import Logo from "../atoms/Logo";
 import { useTranslation } from "react-i18next";
+import { useTheme } from "@/hooks/useTheme";
 
 export default function Navbar() {
     const { t, i18n } = useTranslation();
+
+    const { theme, setTheme } = useTheme();
+
+    const changeTheme = () => {
+        if(theme == 'light') setTheme('dark');
+
+        if(theme == 'dark') setTheme('light');
+    }
+
 
     const changeLanguage = (lang: string) => {
         i18n.changeLanguage(lang);
@@ -39,6 +49,9 @@ export default function Navbar() {
                             <DropdownMenuItem onClick={() => changeLanguage("en")}>🇬🇧 English</DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
+                    <button className="flex items-center gap-2 p-2 hover:text-primary" onClick={changeTheme}>
+                        {theme === "dark" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
+                    </button>
                 </div>
             </div>
 
@@ -59,7 +72,7 @@ export default function Navbar() {
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
                                 <button className="flex items-center gap-2 p-2 hover:text-primary">
-                                    <Globe className="h-5 w-5" /> 
+                                    <Globe className="h-5 w-5" />
                                 </button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent>

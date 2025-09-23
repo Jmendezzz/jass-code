@@ -1,27 +1,27 @@
 
 interface LogoProps {
-  size?: number; 
-  width?: number;
-  height?: number;
-  className?: string;
+    size?: number;
+    width?: number;
+    height?: number;
+    className?: string;
 }
 
 export default function Logo({
-  size,
-  width,
-  height,
-  className = "",
+    size,
+    width,
+    height,
+    className = "",
 }: LogoProps) {
-  const finalWidth = size ?? width ?? 40;  
-  const finalHeight = size ?? height ?? 40;
+    const finalWidth = size ?? width ?? 40;
+    const finalHeight = size ?? height ?? 40;
 
-  return (
-    <img
-      src="/logo.png" 
-      alt="JASS Code Logo"
-      width={finalWidth}
-      height={finalHeight}
-      className={`object-contain ${className}`}
-    />
-  );
+    return (
+        <img
+            src="/logo.png"
+            alt="JASS Code Logo"
+            width={finalWidth}
+            height={finalHeight}
+            className={`object-contain ${className} dark:invert dark:brightness-0 dark:contrast-200`}
+        />
+    );
 }
