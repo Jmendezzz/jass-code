@@ -10,6 +10,11 @@ i18n.use(initReactI18next).init({
                     services: "Servicios",
                     contact: "Contacto",
                 },
+                hero: {
+                    title: "Construimos Software que Inspira Confianza",
+                    subtitle: "Soluciones limpias, ágiles y escalables para tu negocio.",
+                    button: "Comenzar",
+                },
             },
         },
         en: {
@@ -19,10 +24,16 @@ i18n.use(initReactI18next).init({
                     services: "Services",
                     contact: "Contact",
                 },
+                hero: {
+                    title: "We Build Software that Inspires Trust",
+                    subtitle: "Clean, agile, and scalable solutions for your business.",
+                    button: "Get Started",
+                },
             },
         },
     },
-    lng: "es", 
+
+    lng: "es",
     fallbackLng: "en",
     interpolation: { escapeValue: false },
 });

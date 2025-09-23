@@ -130,3 +130,12 @@
     @apply leading-relaxed;
   }
 }
+
+.fade-mask {
+  -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 30%);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 40%);
+  mask-repeat: no-repeat;
+  mask-size: cover;
+}

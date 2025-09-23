@@ -59,7 +59,7 @@ export default function Navbar() {
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
                                 <button className="flex items-center gap-2 p-2 hover:text-primary">
-                                    <Globe className="h-5 w-5" /> Idioma
+                                    <Globe className="h-5 w-5" /> 
                                 </button>
                             </DropdownMenuTrigger>
                             <DropdownMenuContent>
