@@ -20,7 +20,7 @@ export default function About() {
                     <img
                         src="/about.jpg"
                         alt="Equipo JASS Code"
-                        className="w-full max-w-md md:max-w-lg object-contain drop-shadow-lg rounded-lg"
+                        className="w-full md:max-w-lg object-contain drop-shadow-lg rounded-lg"
                     />
                 </motion.div>
 
