@@ -42,7 +42,7 @@ export default function Navbar() {
         }`;
 
     return (
-        <nav className="bg-background border-b border-border px-6 py-2 flex justify-center">
+        <nav className="fixed top-0 left-0 w-full bg-background border-b border-border px-6 py-2 flex justify-center z-50">
             <div className="container flex justify-between items-center">
                 <NavLink to="/" className="text-xl font-bold text-primary">
                     <Logo height={100} width={90} />
@@ -69,9 +69,6 @@ export default function Navbar() {
                                                 <span className="font-medium">
                                                     {t("services.list.custom.title")}
                                                 </span>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {t("services.list.custom.desc")}
-                                                </p>
                                             </NavLink>
                                         </NavigationMenuLink>
                                         <NavigationMenuLink asChild>
@@ -82,9 +79,6 @@ export default function Navbar() {
                                                 <span className="font-medium">
                                                     {t("services.list.automation.title")}
                                                 </span>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {t("services.list.automation.desc")}
-                                                </p>
                                             </NavLink>
                                         </NavigationMenuLink>
                                         <NavigationMenuLink asChild>
@@ -95,9 +89,6 @@ export default function Navbar() {
                                                 <span className="font-medium">
                                                     {t("services.list.saas.title")}
                                                 </span>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {t("services.list.saas.desc")}
-                                                </p>
                                             </NavLink>
                                         </NavigationMenuLink>
                                         <NavigationMenuLink asChild>
@@ -108,9 +99,7 @@ export default function Navbar() {
                                                 <span className="font-medium">
                                                     {t("services.list.consulting.title")}
                                                 </span>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {t("services.list.consulting.desc")}
-                                                </p>
+
                                             </NavLink>
                                         </NavigationMenuLink>
                                         <NavigationMenuLink asChild>
@@ -121,9 +110,6 @@ export default function Navbar() {
                                                 <span className="font-medium">
                                                     {t("services.list.digital.title")}
                                                 </span>
-                                                <p className="text-sm text-muted-foreground">
-                                                    {t("services.list.digital.desc")}
-                                                </p>
                                             </NavLink>
                                         </NavigationMenuLink>
                                     </div>

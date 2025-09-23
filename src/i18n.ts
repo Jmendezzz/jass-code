@@ -128,6 +128,22 @@ i18n.use(initReactI18next).init({
                         },
                     ],
                 },
+                contact: {
+                    title: "Contáctanos",
+                    subtitle: "Estamos aquí para responder tus preguntas y construir juntos soluciones innovadoras.",
+                    form: {
+                        name: "Nombre",
+                        namePlaceholder: "Escribe tu nombre",
+                        emailPlaceholder: "tu@email.com",
+                        message: "Mensaje",
+                        messagePlaceholder: "Cuéntanos cómo podemos ayudarte",
+                        send: "Enviar Mensaje"
+                    },
+                    info: {
+                        title: "Información de contacto",
+                        desc: "Puedes escribirnos directamente a través del formulario o usar los siguientes medios:"
+                    }
+                }
             },
         },
         en: {
@@ -255,6 +271,22 @@ i18n.use(initReactI18next).init({
                         },
                     ],
                 },
+                contact: {
+                    title: "Contact Us",
+                    subtitle: "We are here to answer your questions and build innovative solutions together.",
+                    form: {
+                        name: "Name",
+                        namePlaceholder: "Enter your name",
+                        emailPlaceholder: "your@email.com",
+                        message: "Message",
+                        messagePlaceholder: "Tell us how we can help you",
+                        send: "Send Message"
+                    },
+                    info: {
+                        title: "Contact Information",
+                        desc: "You can write us directly through the form or use the following channels:"
+                    }
+                }
             },
         },
     },
