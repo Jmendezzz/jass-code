@@ -35,7 +35,7 @@ export const servicesData: Record<ServiceKey, ServiceData> = {
     custom: {
         key: "custom",
         icon: Code,
-        image: "/images/services/custom.jpg",
+        image: "/services/custom.jpg",
         content: {
             es: {
                 title: "Desarrollo de Software a la Medida",
@@ -66,7 +66,7 @@ export const servicesData: Record<ServiceKey, ServiceData> = {
     automation: {
         key: "automation",
         icon: Workflow,
-        image: "/images/services/automation.jpg",
+        image: "/services/automation.jpg",
         content: {
             es: {
                 title: "Automatización de Procesos",
@@ -97,7 +97,7 @@ export const servicesData: Record<ServiceKey, ServiceData> = {
     saas: {
         key: "saas",
         icon: Cloud,
-        image: "/images/services/saas.jpg",
+        image: "/services/saas.jpg",
         content: {
             es: {
                 title: "Desarrollo de SaaS",
@@ -128,7 +128,7 @@ export const servicesData: Record<ServiceKey, ServiceData> = {
     consulting: {
         key: "consulting",
         icon: Layers,
-        image: "/images/services/consulting.jpg",
+        image: "/services/consulting.jpg",
         content: {
             es: {
                 title: "Consultoría en Arquitectura de Software",
@@ -159,7 +159,7 @@ export const servicesData: Record<ServiceKey, ServiceData> = {
     digital: {
         key: "digital",
         icon: Building,
-        image: "/images/services/digital.jpg",
+        image: "/services/digital-transformation.jpg",
         content: {
             es: {
                 title: "Transformación Digital para PYMES",
