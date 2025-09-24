@@ -1,0 +1,128 @@
+{
+    "navbar": {
+        "about": "Acerca de",
+        "services": "Servicios",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title": "Construimos Software que Inspira Confianza",
+        "subtitle": "Soluciones limpias, ágiles y escalables para tu negocio.",
+        "button": "Comenzar"
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados.",
+        "about": "Acerca de",
+        "services": "Servicios",
+        "contact": "Contacto"
+    },
+    "about": {
+        "title": "Quiénes Somos",
+        "description": "En JASS Code ayudamos a empresas y personas a construir software limpio, ágil y escalable. Creemos en la tecnología como motor de innovación y crecimiento.",
+        "button": "Conoce nuestros servicios"
+    },
+    "aboutPage": {
+        "heroTitle": "Acerca de JASS Code",
+        "heroSubtitle": "Fusionamos técnica y creatividad para transformar ideas en soluciones digitales.",
+        "whoTitle": "Quiénes Somos",
+        "whoDesc": "En JASS Code ayudamos a empresas y personas a construir software limpio, ágil y escalable. Nuestro equipo multidisciplinario combina la disciplina del clean code con la fluidez del jazz, logrando soluciones armónicas y únicas.",
+        "missionTitle": "Misión",
+        "missionDesc": "Impulsar la transformación digital mediante soluciones de software innovadoras, escalables y alineadas con los objetivos estratégicos de nuestros clientes.",
+        "visionTitle": "Visión",
+        "visionDesc": "Ser reconocidos como una empresa líder en innovación tecnológica, que combina la excelencia técnica con un enfoque humano y estratégico.",
+        "valuesTitle": "Nuestros Valores",
+        "ctaTitle": "¿Quieres trabajar con nosotros?",
+        "ctaButton": "Contáctanos"
+    },
+    "services": {
+        "title": "Nuestros Servicios",
+        "list": {
+            "custom": {
+                "title": "Desarrollo de Software a la Medida",
+                "desc": "Soluciones personalizadas según las necesidades de cada cliente."
+            },
+            "automation": {
+                "title": "Automatización de Procesos",
+                "desc": "Eliminación de tareas repetitivas mediante bots y agentes IA."
+            },
+            "saas": {
+                "title": "Desarrollo de SaaS",
+                "desc": "Creación de productos escalables accesibles bajo suscripción."
+            },
+            "consulting": {
+                "title": "Consultoría en Arquitectura de Software",
+                "desc": "Diseño de sistemas seguros, eficientes y listos para crecer."
+            },
+            "digital": {
+                "title": "Transformación Digital para PYMES",
+                "desc": "Acompañamiento integral en la adopción de tecnologías modernas."
+            }
+        }
+    },
+    "why": {
+        "title": "¿Por qué elegir JASS Code?",
+        "features": {
+            "fusion": "Fusión de técnica y creatividad: combinamos la disciplina del clean code con la fluidez del jazz, logrando soluciones armónicas, eficientes y únicas.",
+            "architectures": "Arquitecturas modernas: trabajamos con microservicios, APIs escalables, RPA, SaaS y cloud-native, garantizando que las soluciones estén listas para crecer y adaptarse al futuro.",
+            "multisector": "Experiencia multisectorial: nuestra participación en salud, educación, consultoría y fintech nos da una visión integral para aplicar buenas prácticas de distintos sectores.",
+            "client": "Enfoque centrado en el cliente: más que software, entregamos soluciones de negocio alineadas con objetivos estratégicos, no solo con requerimientos técnicos.",
+            "team": "Equipo multidisciplinario: especialistas en QA, UI/UX, desarrollo móvil, fullstack y arquitectura que cubren todo el ciclo de vida del producto.",
+            "agile": "Agilidad y cercanía: aplicamos metodologías ágiles para adaptarnos rápidamente a los cambios, manteniendo una comunicación constante y transparente con el cliente.",
+            "impact": "Impacto comprobado: proyectos como MediTrack, EduFlex, U360 Education y CrediYa han demostrado nuestra capacidad para generar valor real y escalable."
+        }
+    },
+    "cta": {
+        "title": "¿Listo para llevar tu software al siguiente nivel?",
+        "subtitle": "Hablemos sobre cómo podemos crear soluciones innovadoras para tu negocio.",
+        "button": "Contáctanos"
+    },
+    "clients": {
+        "title": "Nuestros Clientes"
+    },
+    "team": {
+        "title": "Nuestro Equipo",
+        "subtitle": "Un equipo multidisciplinario que combina técnica, creatividad y visión de negocio.",
+        "members": [
+            {
+                "name": "Samuel Berrio Rojas",
+                "role": "QA & Automation Engineer",
+                "description": "Encargado de la calidad del software, automatización de pruebas y aseguramiento de la estabilidad de los proyectos."
+            },
+            {
+                "name": "Santiago Cardona Sánchez",
+                "role": "UI/UX Designer",
+                "description": "Responsable del diseño de interfaces y experiencia de usuario en aplicaciones web y móviles."
+            },
+            {
+                "name": "Juan Andrés Posada",
+                "role": "Fullstack & Mobile Developer",
+                "description": "Desarrollador especializado en aplicaciones móviles y soluciones fullstack."
+            },
+            {
+                "name": "Juan Gerardo Méndez",
+                "role": "Software Architect & Technical Lead",
+                "description": "Encargado de la arquitectura de software, liderazgo técnico del equipo y acompañamiento en proyectos estratégicos."
+            }
+        ]
+    },
+    "notFound": {
+        "title": "404",
+        "message": "Oops, la página que buscas no existe.",
+        "button": "Volver al inicio"
+    },
+    "contact": {
+        "title": "Contáctanos",
+        "subtitle": "Estamos aquí para responder tus preguntas y construir juntos soluciones innovadoras.",
+        "form": {
+            "name": "Nombre",
+            "namePlaceholder": "Escribe tu nombre",
+            "emailPlaceholder": "tu@email.com",
+            "message": "Mensaje",
+            "messagePlaceholder": "Cuéntanos cómo podemos ayudarte",
+            "send": "Enviar Mensaje"
+        },
+        "info": {
+            "title": "Información de contacto",
+            "desc": "Puedes escribirnos directamente a través del formulario o usar los siguientes medios:"
+        }
+    }
+}

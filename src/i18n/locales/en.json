@@ -1,0 +1,128 @@
+{
+    "navbar": {
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "We Build Software that Inspires Trust",
+        "subtitle": "Clean, agile, and scalable solutions for your business.",
+        "button": "Get Started"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "about": {
+        "title": "About Us",
+        "description": "At JASS Code, we help companies and people build clean, agile, and scalable software. We believe technology is the engine of innovation and growth.",
+        "button": "Discover our services"
+    },
+    "aboutPage": {
+        "heroTitle": "About JASS Code",
+        "heroSubtitle": "We fuse technique and creativity to transform ideas into digital solutions.",
+        "whoTitle": "Who We Are",
+        "whoDesc": "At JASS Code, we help companies and people build clean, agile, and scalable software. Our multidisciplinary team combines clean code discipline with the fluidity of jazz, creating harmonious and unique solutions.",
+        "missionTitle": "Mission",
+        "missionDesc": "To drive digital transformation through innovative, scalable software solutions aligned with our clients' strategic goals.",
+        "visionTitle": "Vision",
+        "visionDesc": "To be recognized as a leading technology innovation company that combines technical excellence with a human and strategic focus.",
+        "valuesTitle": "Our Values",
+        "ctaTitle": "Want to work with us?",
+        "ctaButton": "Contact Us"
+    },
+    "services": {
+        "title": "Our Services",
+        "list": {
+            "custom": {
+                "title": "Custom Software Development",
+                "desc": "Tailored solutions based on each client’s needs."
+            },
+            "automation": {
+                "title": "Process Automation",
+                "desc": "Eliminating repetitive tasks with bots and AI agents."
+            },
+            "saas": {
+                "title": "SaaS Development",
+                "desc": "Building scalable subscription-based products."
+            },
+            "consulting": {
+                "title": "Software Architecture Consulting",
+                "desc": "Designing secure, efficient, and growth-ready systems."
+            },
+            "digital": {
+                "title": "Digital Transformation for SMEs",
+                "desc": "Comprehensive support in adopting modern technologies."
+            }
+        }
+    },
+    "why": {
+        "title": "Why Choose JASS Code?",
+        "features": {
+            "fusion": "Fusion of technique and creativity: we combine clean code discipline with the fluidity of jazz, creating harmonious, efficient, and unique solutions.",
+            "architectures": "Modern architectures: we work with microservices, scalable APIs, RPA, SaaS, and cloud-native systems, ensuring solutions are ready to grow and adapt to the future.",
+            "multisector": "Multisector experience: our work in healthcare, education, consulting, and fintech gives us a holistic vision to apply best practices from diverse industries.",
+            "client": "Client-focused approach: beyond software, we deliver business solutions aligned with strategic goals, not just technical requirements.",
+            "team": "Multidisciplinary team: specialists in QA, UI/UX, mobile, fullstack, and architecture cover the entire product lifecycle.",
+            "agile": "Agility and closeness: we use agile methodologies to quickly adapt to change while maintaining constant, transparent communication.",
+            "impact": "Proven impact: projects like MediTrack, EduFlex, U360 Education, and CrediYa showcase our ability to generate real, scalable value."
+        }
+    },
+    "cta": {
+        "title": "Ready to take your software to the next level?",
+        "subtitle": "Let's talk about how we can create innovative solutions for your business.",
+        "button": "Contact Us"
+    },
+    "clients": {
+        "title": "Our Clients"
+    },
+    "team": {
+        "title": "Our Team",
+        "subtitle": "A multidisciplinary team that combines technique, creativity, and business vision.",
+        "members": [
+            {
+                "name": "Samuel Berrio Rojas",
+                "role": "QA & Automation Engineer",
+                "description": "Responsible for software quality, test automation, and ensuring project stability."
+            },
+            {
+                "name": "Santiago Cardona Sánchez",
+                "role": "UI/UX Designer",
+                "description": "Responsible for designing interfaces and user experience for web and mobile applications."
+            },
+            {
+                "name": "Juan Andrés Posada",
+                "role": "Fullstack & Mobile Developer",
+                "description": "Specialized in mobile applications and fullstack solutions."
+            },
+            {
+                "name": "Juan Gerardo Méndez",
+                "role": "Software Architect & Technical Lead",
+                "description": "In charge of software architecture, technical leadership, and guidance in strategic projects."
+            }
+        ]
+    },
+    "notFound": {
+        "title": "404",
+        "message": "Oops, the page you are looking for does not exist.",
+        "button": "Go back home"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle": "We are here to answer your questions and build innovative solutions together.",
+        "form": {
+            "name": "Name",
+            "namePlaceholder": "Enter your name",
+            "emailPlaceholder": "your@email.com",
+            "message": "Message",
+            "messagePlaceholder": "Tell us how we can help you",
+            "send": "Send Message"
+        },
+        "info": {
+            "title": "Contact Information",
+            "desc": "You can write us directly through the form or use the following channels:"
+        }
+    }
+}
