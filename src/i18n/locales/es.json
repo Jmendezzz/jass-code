@@ -35,6 +35,19 @@
     },
     "services": {
         "title": "Nuestros Servicios",
+        "notFound": "Servicio no encontrado",
+        "back": "Volver al inicio",
+        "detailTitle": "Lo que ofrecemos",
+        "benefits": "Beneficios",
+        "cta": {
+            "button": "Contáctanos",
+            "subtitle": "¿Quieres implementar este servicio en tu empresa?"
+        },
+        "ctaDetail": {
+            "title": "¿Listo para dar el siguiente paso?",
+            "subtitle": "Nuestro equipo está preparado para ayudarte a implementar este servicio en tu organización.",
+            "button": "Solicita una consulta gratuita"
+        },
         "list": {
             "custom": {
                 "title": "Desarrollo de Software a la Medida",

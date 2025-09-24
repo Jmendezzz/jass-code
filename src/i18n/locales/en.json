@@ -35,6 +35,19 @@
     },
     "services": {
         "title": "Our Services",
+        "notFound": "Service not found",
+        "back": "Go back home",
+        "detailTitle": "What we offer",
+        "benefits": "Benefits",
+        "cta": {
+            "button": "Contact Us",
+            "subtitle": "Would you like to implement this service in your company?"
+        },
+        "ctaDetail": {
+            "title": "Ready to take the next step?",
+            "subtitle": "Our team is prepared to help you implement this service in your organization.",
+            "button": "Request a free consultation"
+        },
         "list": {
             "custom": {
                 "title": "Custom Software Development",
