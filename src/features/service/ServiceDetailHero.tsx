@@ -10,7 +10,7 @@ interface ServiceHeroProps {
 
 export function ServiceDetailHero({ image, Icon, title, desc }: ServiceHeroProps) {
     return (
-        <Section bgImage={image} overlay="bg-gradient-to-t from-black/100 to-transparent">
+        <Section bgImage={image} overlay="bg-gradient-to-t from-jass-black/100 to-transparent">
             <motion.div
                 className="text-center text-white space-y-6 relative py-28"
                 initial={{ opacity: 0, y: 30 }}

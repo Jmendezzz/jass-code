@@ -5,6 +5,7 @@ import AboutPage from './components/pages/AboutPage';
 import ContactPage from './components/pages/ContactPage';
 import ServiceDetailPage from './components/pages/ServiceDetailPage';
 import NotFound from './components/pages/NotFound';
+import AboutLifePage from './components/pages/AboutLifePage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path='about' element={<AboutPage />} />
+        <Route path='about/life' element={<AboutLifePage />} />
         <Route path='contact' element={<ContactPage />} />
         <Route path="/services/:serviceName" element={<ServiceDetailPage />} />
 

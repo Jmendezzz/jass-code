@@ -2,7 +2,9 @@
     "navbar": {
         "about": "Acerca de",
         "services": "Servicios",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "aboutUs": "Nosotros",
+        "lifeAtJass": "Vida en JASS Code"
     },
     "hero": {
         "title": "Construimos Software que Inspira Confianza",
@@ -136,6 +138,46 @@
         "info": {
             "title": "Información de contacto",
             "desc": "Puedes escribirnos directamente a través del formulario o usar los siguientes medios:"
+        }
+    },
+    "aboutLife": {
+        "hero": {
+            "title": "Vida en JASS Code",
+            "subtitle": "Donde la pasión por la tecnología se mezcla con la creatividad, la amistad y el aprendizaje constante."
+        },
+        "culture": {
+            "title": "Nuestra Cultura",
+            "desc1": "En JASS Code creemos que el trabajo va más allá del código. Fomentamos un ambiente donde la innovación, la colaboración y el respeto mutuo son el motor de cada proyecto.",
+            "desc2": "Cada miembro del equipo aporta su talento único, y juntos creamos soluciones que inspiran confianza y generan impacto real."
+        },
+        "values": {
+            "title": "Nuestros Valores",
+            "list": {
+                "passion": {
+                    "title": "Pasión",
+                    "desc": "Amamos lo que hacemos y ponemos el corazón en cada línea de código."
+                },
+                "collaboration": {
+                    "title": "Colaboración",
+                    "desc": "Creemos en la fuerza del trabajo en equipo para lograr lo imposible."
+                },
+                "innovation": {
+                    "title": "Innovación",
+                    "desc": "Siempre buscamos nuevas formas de resolver problemas y crear valor."
+                },
+                "creativity": {
+                    "title": "Creatividad",
+                    "desc": "Fusionamos técnica y arte para diseñar soluciones únicas."
+                }
+            }
+        },
+        "gallery": {
+            "title": "Momentos en JASS Code"
+        },
+        "cta": {
+            "title": "¿Quieres ser parte de nuestra historia?",
+            "subtitle": "Únete a un equipo donde cada día es una oportunidad para innovar, aprender y crecer.",
+            "button": "Contáctanos"
         }
     }
 }

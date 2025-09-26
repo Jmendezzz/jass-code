@@ -12,9 +12,9 @@ export default function AboutPage() {
         <section>
             <AboutHero />
             <WhoWeAre />
+            <OurTeam />
             <MissionVision />
             <OurValues />
-            <OurTeam/>
             <AboutCTA />
         </section>
     );

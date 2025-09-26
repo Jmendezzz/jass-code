@@ -2,7 +2,9 @@
     "navbar": {
         "about": "About",
         "services": "Services",
-        "contact": "Contact"
+        "contact": "Contact",
+        "aboutUs": "About Us",
+        "lifeAtJass": "Life at JASS Code"
     },
     "hero": {
         "title": "We Build Software that Inspires Trust",
@@ -136,6 +138,46 @@
         "info": {
             "title": "Contact Information",
             "desc": "You can write us directly through the form or use the following channels:"
+        }
+    },
+    "aboutLife": {
+        "hero": {
+            "title": "Life at JASS Code",
+            "subtitle": "Where passion for technology meets creativity, friendship, and continuous learning."
+        },
+        "culture": {
+            "title": "Our Culture",
+            "desc1": "At JASS Code, we believe work goes beyond code. We foster an environment where innovation, collaboration, and mutual respect drive every project.",
+            "desc2": "Each team member brings their unique talent, and together we create solutions that inspire trust and generate real impact."
+        },
+        "values": {
+            "title": "Our Values",
+            "list": {
+                "passion": {
+                    "title": "Passion",
+                    "desc": "We love what we do and put our heart into every line of code."
+                },
+                "collaboration": {
+                    "title": "Collaboration",
+                    "desc": "We believe in the power of teamwork to achieve the impossible."
+                },
+                "innovation": {
+                    "title": "Innovation",
+                    "desc": "We are always looking for new ways to solve problems and create value."
+                },
+                "creativity": {
+                    "title": "Creativity",
+                    "desc": "We merge technique and art to design unique solutions."
+                }
+            }
+        },
+        "gallery": {
+            "title": "Moments at JASS Code"
+        },
+        "cta": {
+            "title": "Want to be part of our story?",
+            "subtitle": "Join a team where every day is an opportunity to innovate, learn, and grow.",
+            "button": "Contact Us"
         }
     }
 }
