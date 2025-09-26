@@ -49,9 +49,37 @@ export default function Navbar() {
                 </NavLink>
 
                 <div className="hidden md:flex gap-6 items-center">
-                    <NavLink to="/about" className={navLinkClasses}>
-                        {t("navbar.about")}
-                    </NavLink>
+                    <NavigationMenu>
+                        <NavigationMenuList>
+                            <NavigationMenuItem>
+                                <NavigationMenuTrigger className="text-base font-normal hover:text-primary transition">
+                                    {t("navbar.about")}
+                                </NavigationMenuTrigger>
+                                <NavigationMenuContent>
+                                    <div className="flex flex-col p-4 w-[250px]">
+                                        <NavigationMenuLink asChild>
+                                            <NavLink
+                                                to="/about"
+                                                className="block p-3 rounded-md hover:bg-muted transition"
+                                            >
+                                                <span className="font-medium">{t("navbar.aboutUs")}</span>
+                                            </NavLink>
+                                        </NavigationMenuLink>
+                                        <NavigationMenuLink asChild>
+                                            <NavLink
+                                                to="/about/life"
+                                                className="block p-3 rounded-md hover:bg-muted transition"
+                                            >
+                                                <span className="font-medium">{t("navbar.lifeAtJass")}</span>
+                                            </NavLink>
+                                        </NavigationMenuLink>
+                                    </div>
+                                </NavigationMenuContent>
+                            </NavigationMenuItem>
+
+                        </NavigationMenuList>
+                    </NavigationMenu>
+
 
                     <NavigationMenu>
                         <NavigationMenuList>
